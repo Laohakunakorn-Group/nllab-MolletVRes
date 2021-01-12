@@ -2,9 +2,8 @@
 
 using DifferentialEquations
 using Plots, CSV
-# First time takes a while
 
-PATH_TO_MODELS = pwd()*"/scripts/"
+PATH_TO_MODELS = pwd()*"/models/"
 PATH_TO_OUTPUT = pwd()*"/output/" # Path for output data, plots
 FILENAME = "outputMM.csv" # Filename for output data
 PLOTNAME = "plottraces.pdf"
@@ -21,7 +20,6 @@ tspan = 0,Float64(12*60) # time in min
 prob = ODEProblem(model!,u0,tspan,params)
 
 # Solve ODEs
-prob = ODEProblem(model!,u0,tspan,params)
 sol_ODE = solve(prob,saveat=10)
 
 ###########################
@@ -36,7 +34,7 @@ default(titlefont=fntlg, guidefont=fntlg, tickfont=fntlg, legendfont=fntsm)
 p = plot(grid=:false,legend=:true,framestyle=:frame,size=(500,300))
 
 # Plot data
-plot!(sol_ODE, lw=2, labels=permutedims(keysVar)) 
+plot!(sol_ODE, lw=2, labels=permutedims(keysVar),legend = :outertopright) 
 plot!(xaxis = "t (min)",yaxis="concs (uM)")
 
 
