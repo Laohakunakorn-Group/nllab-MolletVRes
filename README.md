@@ -22,9 +22,9 @@ which mounts your repository to the folder ```/app```. You can now work with Jul
 ## Files
 The Jupyter notebook is divided into the following sections:
 
-* 1. Solve model - set up and solve a basic TXTL model described by ODEs, output plots and data, and save the results to file. 
-* 2. Simulate microfluidic TXTL - encode experimental operations of a microfluidic chemostat device, and simulate the model within this system.
-* 3. Calibrate model to titration data - shows how to calibrate the model by fitting to real experimental data. Local, global, and Bayesian inference are demonstrated.
+* Solve model - set up and solve a basic TXTL model described by ODEs, output plots and data, and save the results to file. 
+* Simulate microfluidic TXTL - encode experimental operations of a microfluidic chemostat device, and simulate the model within this system.
+* Calibrate model to titration data - shows how to calibrate the model by fitting to real experimental data. Local, global, and Bayesian inference are demonstrated.
 
 The five included standalone scripts carry out the same procedures independent of the Jupyter notebook. 
 
