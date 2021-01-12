@@ -29,7 +29,7 @@ The Jupyter notebook is divided into the following sections:
 The five included standalone scripts carry out the same procedures independent of the Jupyter notebook. 
 
 ## Project references
-	* Bandiera et al. 2021 A cyber-physical platform for model calibration [(doi)](https://doi.org/10.1007/978-1-0716-1032-9_12)
-	* Balsa-Canto et al. 2021 Optimal experimental design for systems and synthetic biology using AMIGO2 [(doi)](https://doi.org/10.1007/978-1-0716-1032-9_11)
-	* Gilman et al. 2021 Statistical design of experiments for synthetic biology [(doi)](https://doi.org/10.1021/acssynbio.0c00385)
-	* Bandiera et al. 2018 On-line optimal input design increases the efficiency and accuracy of the modelling of an inducible synthetic promoter [(doi)](https://doi.org/10.3390/pr6090148)
+* Bandiera et al. 2021 A cyber-physical platform for model calibration [(doi)](https://doi.org/10.1007/978-1-0716-1032-9_12)
+* Balsa-Canto et al. 2021 Optimal experimental design for systems and synthetic biology using AMIGO2 [(doi)](https://doi.org/10.1007/978-1-0716-1032-9_11)
+* Gilman et al. 2021 Statistical design of experiments for synthetic biology [(doi)](https://doi.org/10.1021/acssynbio.0c00385)
+* Bandiera et al. 2018 On-line optimal input design increases the efficiency and accuracy of the modelling of an inducible synthetic promoter [(doi)](https://doi.org/10.3390/pr6090148)
