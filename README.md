@@ -17,7 +17,7 @@ Clone and navigate to the repository. You can start a command line interface by 
 
 which mounts your repository to the folder ```/app```. You can now work with Julia as normal. You can also directly start Jupyter notebook in your current directory, using
 
-	docker run -p 8888:8888 --rm -it -v "$PWD":/home/jovyan nadanai263/nllab-jupyter:003
+	docker run -p 8888:8888 --rm -it -v "$PWD":/home/jovyan nadanai263/nllab-jupyter:004
 
 ## Files
 The Jupyter notebook is divided into the following sections:
