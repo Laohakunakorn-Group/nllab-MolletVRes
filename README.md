@@ -28,6 +28,8 @@ The Jupyter notebook is divided into the following sections:
 
 The five included standalone scripts carry out the same procedures independent of the Jupyter notebook. 
 
+The project folder contains the code implemented during the VRes project. 
+
 ## Project references
 * Bandiera et al. 2021 A cyber-physical platform for model calibration [(doi)](https://doi.org/10.1007/978-1-0716-1032-9_12)
 * Balsa-Canto et al. 2021 Optimal experimental design for systems and synthetic biology using AMIGO2 [(doi)](https://doi.org/10.1007/978-1-0716-1032-9_11)
